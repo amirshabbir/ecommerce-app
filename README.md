@@ -21,12 +21,24 @@ npm run preview: Previews the production build locally.
 
 - [Node.js](https://nodejs.org/) and npm installed
 
-## Setup Instructions
 
+## Setup Instructions
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/amirshabbir/ecommerce-app.git
+   
+   ```Set Up the Project Directory
+   cd ecommerce-app
+
+   ```Install Dependencies: Ensure all dependencies are installed by running:
+   npm install
+
+   ```Run the Application
+   npm run dev
+
+   ```Access the App in Your Browser:
+   http://localhost:5173
 
 ## Project Structure
 my-ecommerce-app/
