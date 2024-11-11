@@ -1,0 +1,7 @@
+/* Add this in src/index.css or in a CSS module */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  

@@ -1,0 +1,132 @@
+/* CartPage.module.css */
+
+/* Cart Container */
+.cartContainer {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Cart Title */
+  .cartTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Empty Cart Message */
+  .emptyMessage {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  /* Cart Item List */
+  .cartItemList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Cart Item */
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Item Title */
+  .itemTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    flex: 1 1 60%;
+  }
+  
+  /* Item Price */
+  .itemPrice {
+    font-size: 1rem;
+    color: #007bff;
+    font-weight: bold;
+    flex: 1 1 20%;
+    text-align: right;
+  }
+  
+  /* Remove Button */
+  .removeButton {
+    padding: 5px 10px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    flex: 0 0 auto; 
+    margin-left: 10px;
+  }
+  
+  .removeButton:hover {
+    background-color: #ff4c4c;
+  }
+  
+  /* Total Price */
+  .total {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .cartContainer {
+      padding: 10px;
+    }
+  
+    .cartTitle {
+      font-size: 1.5rem;
+    }
+  
+    .cartItem {
+      flex-wrap: wrap; 
+      align-items: flex-start;
+    }
+  
+    .itemTitle, .itemPrice {
+      font-size: 1rem;
+      text-align: left;
+      flex: 1 1 100%;
+    }
+  
+    .removeButton {
+      flex: 1 1 100%; 
+      margin-top: 8px;
+      margin-left: 0;
+    }
+  
+    .total {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cartTitle {
+      font-size: 1.3rem;
+    }
+  
+    .itemTitle, .itemPrice {
+      font-size: 0.9rem;
+    }
+  
+    .total {
+      font-size: 1rem;
+    }
+  }
+  
